@@ -1,0 +1,10 @@
+.para{
+    color:blue;
+}
+.para:hover{
+    color:black
+}
+.name ::first-letter{
+    font-size: 50px;
+    color:azure
+}
