@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function sum(){
+      const num1=Number(document.getElementById("num1").value)
+      const num2=Number(document.getElementById("num2").value)
+      const otp=document.getElementById("otp")
+      otp.innerHTML=num1+num2
+           
+
+    }
+     function mult(){
+      const num1=Number(document.getElementById("num1").value)
+      const num2=Number(document.getElementById("num2").value)
+      const otp=document.getElementById("otp")
+      otp.innerHTML=num1*num2
+     }
+     
+     function sub(){
+      const num1=Number(document.getElementById("num1").value)
+      const num2=Number(document.getElementById("num2").value)
+      const otp=document.getElementById("otp")
+      otp.innerHTML=num1-num2
+     }
+     function div(){
+      const num1=Number(document.getElementById("num1").value)
+      const num2=Number(document.getElementById("num2").value)
+      const otp=document.getElementById("otp")
+      otp.innerHTML=num1/num2
+     }
+
+</script>
+<body>
+    n1: <input id="num1" type="text" placeholder="Enter first N0.">
+    <br> <br>
+
+    n2: <input id="num2" type="text" placeholder="Enter second N0.">
+    <br> <br>
+
+    <button onclick="sum()" >Add Sum</button>
+    <button onclick="mult()" >Multiply</button>
+    <button onclick="sub()" >Sub</button>
+    <button onclick="div()" >div</button>
+
+
+    <p id="otp"></p>
+
+</body>
+</html>

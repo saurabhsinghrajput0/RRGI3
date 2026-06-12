@@ -1,0 +1,20 @@
+// const name="Sauarbh"
+
+// console.log("welcome"+" "+name +" "+"bye")
+// console.log('welcome ${name} bye')
+
+// //spread operator
+// const arr1=[1,2,3]
+// const arr2=[4,5,6]
+// const arr3=[...arr1,...arr2]
+// console.log(arr3)
+
+//rest operator
+const colours=["red","blue","green","yellow"]
+//console.log(colours[0])
+
+const [primary,secondary,tertiary]=colours 
+console.log(primary)
+console.log(secondary)
+console.log(tertiary)
+
